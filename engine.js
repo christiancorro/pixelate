@@ -74,9 +74,9 @@ function draw() {
     }
     fill(70);
     textSize(fontsize);
-    text("    Eraser Size:  " + eraserDim, eraserSlider.x * 2 + eraserSlider.width, eraserSlider.y + 15);
-    text("    Resolution (pixel size) :  " + pixelDensity, pixelSlider.x * 2 + pixelSlider.width, pixelSlider.y + 15);
-    text("    Fruit name || Image URL, max 64x64 px (poi sono cazzi tuoi)", imageUrl.x * 2 + imageUrl.width, imageUrl.y + 15);
+    text("    Eraser size:  " + eraserDim, eraserSlider.x * 2 + eraserSlider.width, eraserSlider.y + 15);
+    text("    Pixel size :  " + pixelDensity, pixelSlider.x * 2 + pixelSlider.width, pixelSlider.y + 15);
+    text("    Fruit name or Image URL, max 64x64 px (poi sono cazzi tuoi)", imageUrl.x * 2 + imageUrl.width, imageUrl.y + 15);
     textSize(12);
     text("      fruits: ananas, hello, watermelon, orange, avocado, banana, charizard, kiwi, lemon, mais, apple, papaya, pear, pikachu, pizza, tomato, plums, grapes", imageUrl.x * 2 + imageUrl.width, pixelSlider.y + 60);
 
